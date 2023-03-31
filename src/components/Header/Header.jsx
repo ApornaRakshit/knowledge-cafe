@@ -1,17 +1,22 @@
-import React from 'react';
-import './Header.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Header = () => {
-    return (
-        <nav className='header'>
-            <h2>Knowledge Cafe</h2>
-            <div>
-                <a href="Inspiration">Inspiration</a>
-                <a href="Sign In">Sign In</a>
-                <a href="Sign Up">Sign Up</a>
-            </div>
-        </nav>
-    );
-};
+function Header() {
+  return (
+      <Navbar
+      bg="light" variant="light">
+        <Container>
+          <Navbar.Brand href="#home"><h4>knowledge Cafe</h4></Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#Create Post">Create Post</Nav.Link>
+            <Nav.Link href="#Log In">Log In</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    
+  );
+}
 
 export default Header;

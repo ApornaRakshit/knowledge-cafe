@@ -6,9 +6,11 @@ const Product = (props)=>{
     return(
         <div class='product'>
           <img src={img} alt="" />
-          <h4 className='product-name'>{name}</h4>
-          <p>{date}</p>
-          <h2>{description}</h2>
+          <div className='product-info'>
+            <h4 className='product-name'>{name}</h4>
+            <p>{date}</p>
+            <h2>{description}</h2>
+          </div>
         </div>
     );
 };
