@@ -16,18 +16,24 @@ const Home = ({handleWatchTime})=>{
     };
     
     return(
-        <div>
+        <div className='allBlogs'>
+            
             <div className="blog-container">
-            
                 {
-                    
-                    blogs.map((blogs)=>
-                    <SingleCard  handleWatchTime={handleWatchTime} handleAddToCart={handleAddToCart} blogs={blogs} > </SingleCard>
+                blogs.map((blogs)=>
+                <SingleCard
+                key={blogs.id}
+                handleWatchTime={handleWatchTime}
+                handleAddToCart={handleAddToCart}
+                blogs={blogs} > </SingleCard>
                 )}
-            
-            <h5>Bookmarked Blogs : {cart.length}</h5>
             </div>
-            
+            <div className='cart-container card'>
+               <h5>Selected item: {cart.length}</h5>
+               {cart.map((blog) => (
+                <h4 key={blog.id}><li>{blog.description}</li></h4>
+               ))}
+            </div>
         </div>
     );
 };

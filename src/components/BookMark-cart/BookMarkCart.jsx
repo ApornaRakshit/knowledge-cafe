@@ -12,6 +12,7 @@ const BookMarkCart = ({readTime})=>{
         <div className="mb-1 text-center">
         <h6>Spend time on read: {time} min</h6>
         </div>
+        
         </div>
       );
     };

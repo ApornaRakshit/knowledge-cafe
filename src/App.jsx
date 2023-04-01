@@ -27,7 +27,7 @@ function App() {
         <Header></Header>
         <div className="main row m-auto">
         <div className="home-container  col-md-8"><Home handleWatchTime={handleWatchTime}></Home></div>
-        <div className="bookMark-container col-md-4 card "><BookMarkCart readTime={readTime}></BookMarkCart></div>
+        <div className="bookMark-container col-md-4 card h-50 "><BookMarkCart readTime={readTime}></BookMarkCart></div>
         </div>
     </div>
     </div>
