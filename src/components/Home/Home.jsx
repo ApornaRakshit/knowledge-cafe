@@ -29,9 +29,9 @@ const Home = ({handleWatchTime})=>{
                 )}
             </div>
             <div className='cart-container card'>
-               <h5>Selected item: {cart.length}</h5>
+               <h4>BookMark added: {cart.length}</h4>
                {cart.map((blog) => (
-                <h4 key={blog.id}><li>{blog.description}</li></h4>
+                <h5 key={blog.id}><li>{blog.description1}</li></h5>
                ))}
             </div>
         </div>

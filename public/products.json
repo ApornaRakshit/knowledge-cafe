@@ -7,7 +7,8 @@
         "blogTitle": "HTML",
         "authorImg":"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "readTime":12,
-        "description":"How to get your first job as a self-taught programmer"
+        "description":"How to get your first job as a self-taught programmer",
+        "description1":"Giving answer about which are needed for web development "
     },    
     {
         "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
@@ -17,7 +18,8 @@
         "blogTitle": "CSS",
         "authorImg":"https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80",
         "readTime":5 ,
-        "description":"How to get your first job as a self-taught programmer"
+        "description":"How to get your first job as a self-taught programmer",
+        "description1":"Giving answer about which are needed for web development "
     },     
     {
         "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
@@ -27,7 +29,8 @@
         "blogTitle": "JavaScript",
         "authorImg":"https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
         "readTime":8,
-        "description":"How to get your first job as a self-taught programmer"
+        "description":"How to get your first job as a self-taught programmer",
+        "description1":"Giving answer about which are needed for web development "
         
     },
     {
@@ -38,7 +41,8 @@
         "blogTitle": "React",
         "authorImg":"https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "readTime":10,
-        "description":"How to get your first job as a self-taught programmer"
+        "description":"How to get your first job as a self-taught programmer",
+        "description1":"Giving answer about basic React as react developer"
         
     }
 ]

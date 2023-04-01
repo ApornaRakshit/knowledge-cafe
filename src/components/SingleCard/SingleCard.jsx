@@ -8,7 +8,7 @@ const SingleCard = ({ blogs, handleWatchTime,handleAddToCart}) => {
         <div>
             <div className="blog-card card w-100 m-auto col-md-6">
                 <div className="blog-poster w-100 m-auto">
-                    <img className='w-100' src={blogs.img}height="400" alt="" />
+                    <img className='w-100' src={blogs.img} alt="" />
                 </div>
                 <h4>{blogs.blogTitle}</h4>
                 <div className='d-flex justify-content-between'>
