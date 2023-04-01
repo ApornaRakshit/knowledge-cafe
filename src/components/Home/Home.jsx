@@ -31,7 +31,7 @@ const Home = ({handleWatchTime})=>{
             <div className='cart-container card'>
                <h4>BookMark added: {cart.length}</h4>
                {cart.map((blog) => (
-                <h5 key={blog.id}><li>{blog.description1}</li></h5>
+                <h5 key={blog.id}><li>{blog.description}</li></h5>
                ))}
             </div>
         </div>
