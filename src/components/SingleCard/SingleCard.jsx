@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SingleCard = ({blogs})=>{
+const SingleCard = ({blogs,handleWatchTime})=>{
     console.log(blogs)
     return(
         <div>
@@ -22,13 +22,14 @@ const SingleCard = ({blogs})=>{
                     <div className="dateAndTime ">
                     <p>{blogs.publishDate}</p>
                     </div></div></div>
-                    <p>{blogs.readTime}</p>
+                    <p>{blogs.readTime} min read</p>
                      </div>
                      <h5>{blogs.description}</h5>
-                     <button className='btn btn-info w-75'>Mark as read</button>
+                     <button onClick={()=>handleWatchTime(blogs.readTime)} className='btn btn-info btn-light text-start w-25'>Mark as read</button>
                      </div>
         </div>
     );
 };
 
 export default SingleCard;
+
